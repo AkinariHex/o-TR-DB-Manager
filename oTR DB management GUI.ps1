@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Drawing
 
 # Create the main form
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Docker Database Management"
+$form.Text = "osu! Tournament Rating DB Manager"
 $form.Size = New-Object System.Drawing.Size(600, 500)
 $form.StartPosition = "CenterScreen"
 $form.FormBorderStyle = "FixedDialog"
